@@ -1,0 +1,23 @@
+.container{
+	background-color: var(--white);
+	border-radius: 15px;
+	padding: 20px;
+	max-width: 350px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.field{
+	border-radius: 5px;
+	width: 100%;
+	height: 40px;
+	color: var(--dark-blue);
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 35px;
+	border: solid 2px var(--border-blue);
+}

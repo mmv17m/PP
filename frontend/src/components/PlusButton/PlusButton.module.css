@@ -1,0 +1,21 @@
+.plus_button{
+	display: flex;
+	min-height: 50px;
+	min-width: 50px;
+	background-color: var(--dark-blue);
+	border-radius: 50%;
+	justify-content: center;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+	transition: all 0.1s;
+}
+
+.plus_button:hover{
+	transform: scale(1.1, 1.1);
+	transition: all 0.1s;
+}
+
+.plus{
+	font-weight: 500;
+	font-size: 40px;
+	color: var(--white);
+}

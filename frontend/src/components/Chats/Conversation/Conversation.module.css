@@ -1,0 +1,10 @@
+.conversation{
+	display: grid;
+	grid-template-rows: 62px 1fr 50px;
+	width: 100%;
+}
+.b{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 1px red solid;
+}

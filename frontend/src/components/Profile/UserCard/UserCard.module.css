@@ -1,0 +1,34 @@
+.user_card{
+	border-radius: 10px;
+	border: 2px var(--border-blue) solid;
+	padding: 30px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-gap: 20px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.img{
+	width: 150px;
+	height: 150px;
+}
+
+.img_container{
+	border-radius: 200px;
+	border: solid var(--dark-blue) 5px;
+	padding: 20px;
+}
+
+.information{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	grid-gap: 5px;
+}
+
+.text{
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--dark-blue);
+}

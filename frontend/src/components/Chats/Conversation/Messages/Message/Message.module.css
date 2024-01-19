@@ -1,0 +1,35 @@
+.message_container{
+	border-radius: 10px 10px 10px 0px;
+	border: solid 2px var(--border-blue);
+	padding: 10px;
+}
+
+.message_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1px;
+	margin-bottom: 10px;
+}
+
+
+.sender{
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+}
+
+.nickname{
+	font-weight: 500;
+	color: var(--dark-blue);
+}
+
+.text{
+	display: inline-block;
+	color: var(--dark-blue);	
+}
+
+.date{
+	margin-right: 10px;
+	color: var(--dark-blue);
+}

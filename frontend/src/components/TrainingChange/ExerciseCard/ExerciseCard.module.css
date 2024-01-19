@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    border: solid 2px var(--border-blue);
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.title{
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.description{
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.settings{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+.setting{
+    color: var(--dark-blue);
+    font-size: 13px;
+}

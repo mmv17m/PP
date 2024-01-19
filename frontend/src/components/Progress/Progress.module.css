@@ -1,0 +1,8 @@
+.page{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}

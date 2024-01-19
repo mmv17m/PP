@@ -1,0 +1,36 @@
+.container{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color: var(--white);
+	border-radius: 5px;
+	border: solid 2px var(--border-blue);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.field{
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	color: var(--dark-blue);
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 35px;
+}
+
+.field::placeholder{
+	color: var(--dark-blue);
+}
+
+.field::-ms-input-placeholder { /* Edge 12 -18 */
+	color: var(--dark-blue);
+}
+
+
+@media (max-width: 700px) {
+	.container{
+		width: 100%;
+	
+	}
+}

@@ -1,0 +1,44 @@
+.profile{
+	background-color: var(--white);
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	grid-gap: 30px;
+	max-width: 680px;
+	width: 100%;
+}
+
+.fields_container{
+	display: flex;
+	flex-direction: column;
+	grid-gap: 10px;
+	max-width: 350px;
+	width: 100%;
+}
+
+.select_menus{
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.buttons{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	grid-gap: 10px;
+}
+
+@media (max-width: 700px) {
+	.user_card{
+		width: 100%;
+	
+	}
+	.profile{
+		flex-direction: column;
+	}
+	.fields_container{
+		max-width: 100%;
+	}
+}

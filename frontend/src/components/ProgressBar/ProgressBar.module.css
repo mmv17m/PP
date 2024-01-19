@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    border: 2px solid var(--border-blue);
+    border-radius: 10px;
+    height: 24px;
+    overflow: hidden;
+}
+
+.fill{
+    background-color: var(--dark-green);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.text{
+    font-size: 12px;
+    margin-left: 5px;
+    color: var(--dark-blue);
+}

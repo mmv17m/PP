@@ -1,0 +1,32 @@
+.chats_panel{
+	border-right: solid 2px var(--border-blue);
+	padding-top: 10px;
+	width: 100%;
+}
+
+.search_field_container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px var(--border-blue);
+}
+
+.chats{
+	display: flex;
+	flex-direction: column;
+	grid-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.plus_button_container{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

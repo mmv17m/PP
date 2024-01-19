@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    border: solid 2px var(--border-blue);
+    padding: 3%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container:hover{
+    background-color: var(--light-green);
+}
+
+.title{
+    color: var(--dark-blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nutritions{
+    color: var(--dark-blue);
+    font-size: 11px;
+    font-weight: 400;
+}

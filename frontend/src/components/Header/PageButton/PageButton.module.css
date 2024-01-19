@@ -1,0 +1,22 @@
+.page_button{
+	color: var(--dark-blue);
+}
+
+.page_button:hover{
+	color: var(--dark-green);
+}
+
+.current_page_button{
+	display: inline-block;
+	color: var(--dark-blue);
+	font-weight: 700;
+	border-bottom: solid 2px var(--dark-blue);
+	margin-top: 2px;
+}
+
+@media (max-width: 700px) {
+	.page_button, .current_page_button{
+		font-size: 20px;
+	}
+}
+

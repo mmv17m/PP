@@ -1,0 +1,42 @@
+.conversation_header{
+	border-bottom: solid 2px var(--border-blue);
+	display: flex;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img{
+	width: 40px;
+	height: 40px;
+}
+
+.user{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.nickname{
+	margin-top: 5px;
+	color: var(--dark-blue);
+	font-weight: 500;
+}
+
+.last_seen{
+	margin-top: 2px;
+	font-size: 12px;
+	margin-left: 10px;
+	color: var(--dark-blue);
+}
+
+.backButton{
+	background-color: rgba(0, 0, 0, 0);
+	color: var(--dark-blue);
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}

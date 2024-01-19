@@ -1,0 +1,27 @@
+.trainer{
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid var(--border-blue);
+    padding: 30px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+}
+
+.name{
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.nickname{
+    color: var(--dark-blue);
+    font-size: 14px;
+    font-weight: 500;
+}

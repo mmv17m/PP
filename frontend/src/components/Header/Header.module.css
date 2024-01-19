@@ -1,0 +1,19 @@
+.header{
+	background-color: var(--white);
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: var(--header-height);
+	top: 0;
+	border-bottom: solid 2px var(--border-blue);
+	box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+}
+
+.burger_button{
+	background-color: rgba(0, 0, 0, 0);
+	color: var(--dark-blue);
+	font-size: 20px;
+	font-weight: 600;
+}

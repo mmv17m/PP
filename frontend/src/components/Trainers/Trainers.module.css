@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.trainers_container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    width: 700px;
+    margin: 50px;
+}
+
+.plus_button{
+    margin-right: 30px;
+}

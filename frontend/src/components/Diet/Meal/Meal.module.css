@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    border: solid 2px var(--border-blue);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1.5%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.meal_name{
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--dark-blue);
+}
+
+.time{
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--dark-blue);
+}
+
+.table {
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+.table__row, td.table__data, th.table__title {
+    border: solid 2px var(--border-blue);
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+td.table__data, th.table__title {
+    padding: 1.5%;
+    font-size: 0.9em;
+    color: var(--dark-blue);
+}
+
+td.table__data {
+    font-weight: 500;
+}
+
+tr.table__row {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
